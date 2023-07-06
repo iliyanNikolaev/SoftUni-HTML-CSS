@@ -1,0 +1,45 @@
+html{
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after{
+    box-sizing: inherit;
+}
+
+.header{
+    background-color: #5E7DC2;
+    padding: 6px 12px;
+}
+
+.header .logo{
+    width: 40px;
+    vertical-align: middle;
+    margin-right: 350px;
+}
+
+.header .navbar{
+    display: inline-block;
+    vertical-align: middle;
+
+}
+
+body {
+    margin: 0;
+}
+
+.header .navbar .links{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header .navbar .links .link{
+    display: inline-block;
+    margin-right: 12px;
+}
+
+.header .navbar .links .link a {
+    text-decoration: none;
+}
