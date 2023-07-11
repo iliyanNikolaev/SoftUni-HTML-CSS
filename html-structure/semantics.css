@@ -1,0 +1,11 @@
+body{
+    margin: 0;
+}
+
+header{
+    background-color: grey;
+}
+
+.opel-logo{
+    width: 80px;
+}

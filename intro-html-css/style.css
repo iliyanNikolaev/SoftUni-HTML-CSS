@@ -1,0 +1,24 @@
+.nth-example li:nth-child(even){
+    background-color: green;
+    font-weight: bold;
+}
+
+.link:active{
+    color: red;
+}
+
+.btn{
+    background-color: aqua;
+}
+
+.btn:hover{
+    background-color: aquamarine;
+}
+
+.btn:active{
+    width: 50px
+}
+
+.input:focus{
+    background-color: gray ;
+}
