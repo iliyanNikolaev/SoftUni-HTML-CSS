@@ -1,0 +1,6 @@
+.gridExmp{
+    display: grid;
+    /* grid-template-columns: 200px 200px 200px; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}

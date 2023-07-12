@@ -1,0 +1,33 @@
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(6, 100px);
+    grid-template-rows: repeat(6, 100px);
+    gap: 10px;
+    grid-template-areas: 
+        "head head head head head head"
+        "side side content content content content"
+        "side side content content content content"
+        "side side content content content content"
+        "side side content content content content"
+        "footer footer footer footer footer footer";
+}
+
+.header{
+    grid-area: head;
+}
+
+.content{
+    grid-area: content;
+}
+
+.side-bar{
+    grid-area: side;
+}
+
+.footer{
+    grid-area: footer;
+}
+
+div{
+    background-color: aqua;
+}
