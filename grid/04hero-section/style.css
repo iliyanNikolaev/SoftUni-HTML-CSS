@@ -27,7 +27,8 @@ body {
     object-fit: cover;
 }
 
-.contrast-overlay{
+.hero-section::before{
+    content: "";
     position: absolute;
     height: 100%;
     width: 100%;
