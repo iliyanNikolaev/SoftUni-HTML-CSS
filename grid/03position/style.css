@@ -1,0 +1,83 @@
+body {
+    padding: 12px;
+    background-color: lightgray;
+}
+
+.container {
+    width: 80%;
+    padding: 12px;
+    border: 2px dashed;
+    margin-bottom: 32px;
+}
+
+.container img {
+    width: 350px;
+}
+
+/* static example */
+
+.static {
+    background-color: lightblue;
+}
+
+.static img {
+    position: static;
+    top: 20px;
+    left: 20px;
+}
+
+/* relative example */
+
+.relative {
+    background-color: palevioletred;
+}
+
+.relative img {
+    position: relative;
+    top: 20px;
+    left: 50px;
+}
+
+/* absolute example */
+
+.absolute {
+    background-color: aquamarine;
+    position: relative;
+}
+
+.absolute img {
+    position: absolute;
+    width: 100px;
+    right: 10px;
+    top: 5px;
+}
+
+/* fixed example */
+
+.fixed{
+    background-color: lightgreen;
+}
+
+.fixed img{
+    position: fixed;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    bottom: 10px;
+    right: 10px;
+}
+
+/* sticky example */
+
+.sticky{
+    background-color: bisque;
+}
+
+.sticky img{
+    position: sticky;
+    top: 40px;
+}
+
+.sticky p{
+    font-size: 32px;
+}
