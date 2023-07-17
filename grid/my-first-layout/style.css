@@ -1,77 +1,71 @@
 body{
-    box-sizing: border-box;
-    font-family: Arial, Helvetica, sans-serif;
-    background-color: lightgray;
     margin: 0;
 }
 
+/* HEADER */
+
 .header{
-    background-color: blue;
+    grid-column: 1 / span 3;
+    background-color: #000;
+    padding: 6px 12px;
+    display: flex;
+    align-items: center;
+    font-size: large;
 }
 
-.header .links{
-    padding: 0;
-    text-align: center;
+.header .logo{
+    width: 60px;
+    margin-right: auto;
 }
 
-
-.header .link-el{
-    display: inline;
+.navigation{
+    margin-right: auto;
 }
 
-.header .link-el a{
-    color: white;
+.navigation .nav-link a{
+    color: #fff;
     text-decoration: none;
 }
 
-main{
-    padding: 12px;
+.navigation .list{
+    display: flex;
+    gap: 12px;
 }
 
-main h1{
-    text-align: center;
+.btn{
+    all: unset;
+    cursor: pointer;
+    padding: 4px;
 }
 
-main img{
-    width: 150px;
-    float: right;
+.btn.search{
+    margin-right: 12px;
 }
 
-.aside-content .navbar .links{
-    list-style-type: none;
+.fas.fa-search,
+.fas.fa-user-circle{
+    color: white
 }
 
-.aside-content .navbar .links .link-el a{
-    text-decoration: none;
-}
+/* GRID CONTAINER */
 
-.root{
+.grid-container{
     display: grid;
-    grid-template-columns: repeat(8, 12.5%);
-    grid-template-rows: (8, 100px);
-    grid-template-areas: 
-        "head head head head head head head head "
-        ". content content content content content . ."
-        ". content content content content content side side"
-        ". content content content content content side side"
-        ". content content content content content . ."
-        ". content content content content content . ."
-        ". content content content content content . ."
-        ". . . footer footer . . ."
+    height: 800px;
+    grid-template-columns: 5% 1fr 5%;
+    grid-template-rows: 8% 1fr 5%;
+    gap: 20px;
 }
 
-.header{
-    grid-area: head;
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid;
+    border-radius: 40px;
+    padding: 24px;
+    grid-column: 2;
+    grid-row: 2;
 }
 
-.main{
-    grid-area: content;
-}
-
-.aside-content{
-    grid-area: side;
-}
-
-.footer{
-    grid-area: footer;
-}

@@ -1,0 +1,77 @@
+body{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: lightgray;
+    margin: 0;
+}
+
+.header{
+    background-color: blue;
+}
+
+.header .links{
+    padding: 0;
+    text-align: center;
+}
+
+
+.header .link-el{
+    display: inline;
+}
+
+.header .link-el a{
+    color: white;
+    text-decoration: none;
+}
+
+main{
+    padding: 12px;
+}
+
+main h1{
+    text-align: center;
+}
+
+main img{
+    width: 150px;
+    float: right;
+}
+
+.aside-content .navbar .links{
+    list-style-type: none;
+}
+
+.aside-content .navbar .links .link-el a{
+    text-decoration: none;
+}
+
+.root{
+    display: grid;
+    grid-template-columns: repeat(8, 12.5%);
+    grid-template-rows: (8, 100px);
+    grid-template-areas: 
+        "head head head head head head head head "
+        ". content content content content content . ."
+        ". content content content content content side side"
+        ". content content content content content side side"
+        ". content content content content content . ."
+        ". content content content content content . ."
+        ". content content content content content . ."
+        ". . . footer footer . . ."
+}
+
+.header{
+    grid-area: head;
+}
+
+.main{
+    grid-area: content;
+}
+
+.aside-content{
+    grid-area: side;
+}
+
+.footer{
+    grid-area: footer;
+}
