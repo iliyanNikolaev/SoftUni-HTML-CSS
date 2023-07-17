@@ -2,6 +2,8 @@
     box-sizing: border-box;
 }
 
+/* flex example */
+
 .container{
     display: flex;
     text-align: center;
