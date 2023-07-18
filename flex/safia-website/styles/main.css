@@ -8,7 +8,7 @@ body {
 	color: white;
 }
 
-p{
+p {
 	color: #4e5a85;
 }
 
@@ -24,7 +24,7 @@ p{
 	backdrop-filter: blur(35px);
 }
 
-.header .navigation{
+.header .navigation {
 	margin-left: auto;
 	margin-right: 12px;
 }
@@ -43,7 +43,7 @@ p{
 
 /* buttons */
 
-.btn{
+.btn {
 	border: none;
 	border-radius: 4px;
 	background-color: #4e5a85;
@@ -54,11 +54,11 @@ p{
 
 /* hero */
 
-#hero{
+#hero {
 	padding: 70px 64px;
 }
 
-#hero .welcome{
+#hero .welcome {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -67,30 +67,71 @@ p{
 	margin: 0 auto 48px auto;
 }
 
-#hero .welcome > * {
+#hero .welcome>* {
 	width: 45%;
 }
 
-#hero .welcome .title{
+#hero .welcome .title {
 	font-size: 48px;
 	line-height: 1.2;
 }
 
-#hero .welcome .info{
+#hero .welcome .info {
 	margin-bottom: 12px;
 }
 
-#hero .welcome .btn-primary{
+#hero .welcome .btn-primary {
 	background-color: #0059f7;
 	color: white;
 }
 
-#hero .hero-img{
+#hero .hero-img {
 	margin: 0 auto 48px auto;
 }
 
-#hero .partners{
+#hero .partners {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
+}
+
+/* HOW section */
+
+#how {
+	padding: 70px 64px;
+}
+
+#how .section-subtitle {
+	text-align: center;
+	font-size: 14px;
+}
+
+#how .section-title {
+	text-align: center;
+	font-size: 32px;
+}
+
+#how .row {
+	display: flex;
+	align-items: center;
+	gap: 32px;
+	max-width: 900px;
+	margin: 0 auto 48px auto;
+}
+
+#how .row:nth-child(even){
+	flex-direction: row-reverse;
+}
+
+#how .row .row-img {
+	width: 60%;
+}
+
+#how .row .row-text .title {
+	font-size: 24px;
+	margin-bottom: 12px;
+}
+
+#how .row .row-text .desc {
+	font-size: 14px;
 }
