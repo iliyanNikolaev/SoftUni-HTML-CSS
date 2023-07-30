@@ -1,0 +1,18 @@
+h2{
+    margin: 0;
+}
+
+.h2-inline{
+    display: inline;
+    background-color: red;
+}
+
+.h2-block{
+    display: block;
+    background-color: green;
+}
+
+.h2-inline-block{
+    display: inline-block;
+    background-color: blue;
+}

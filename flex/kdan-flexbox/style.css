@@ -1,0 +1,21 @@
+div{
+    display: inline-block;
+}
+.root{
+    display: flex;
+}
+
+
+
+
+
+
+
+
+
+.deck{
+    width: 75px;
+    height: 100px;
+    border: 1px solid;
+    background-color: antiquewhite;
+}
