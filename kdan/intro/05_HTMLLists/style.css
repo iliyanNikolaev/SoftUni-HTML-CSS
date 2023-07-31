@@ -1,0 +1,7 @@
+ol>ul{
+    list-style: circle;
+}
+
+ol[type="I"]>ul{
+    list-style: disc;
+}
