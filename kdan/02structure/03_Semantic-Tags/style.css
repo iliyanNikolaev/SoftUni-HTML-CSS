@@ -1,0 +1,13 @@
+body{
+    background-color: #f9f7d0;
+}
+
+header, footer{
+    background-color: #f3dcbc;
+    margin: 24px;
+    padding: 6px 12px;
+}
+
+main{
+    margin: 24px;
+}
