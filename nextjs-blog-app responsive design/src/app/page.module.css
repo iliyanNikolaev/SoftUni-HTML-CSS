@@ -1,0 +1,56 @@
+.container{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+}
+
+@media (max-width: 900px){
+    .container{
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .image{
+        width: 100%;
+    }
+
+    .texts{
+        text-align: center;
+    }
+}
+
+.texts,
+.imgContainer {
+    flex: 1
+}
+
+.image{
+    object-fit: contain;
+    animation: move 3s infinite ease alternate;
+}
+
+@keyframes move {
+    from{
+        transform: translateY(-15px);
+    }
+    to{
+        transform: translateY(0px) scale(1.03);
+    }
+}
+
+.texts{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.title{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #4b5d9a
+}
+
+.desc{
+    font-size: 24px;
+    cursor: default;
+}

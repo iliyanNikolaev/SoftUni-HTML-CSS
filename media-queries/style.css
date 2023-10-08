@@ -1,0 +1,42 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkgrey;
+}
+
+/* .content{
+    display: flex;
+    align-items: center;
+} */
+
+@media (min-width: 600px) {
+    .content{
+        display: flex;
+        align-items: center;
+    }
+}
+
+.text-container{
+    flex: 1;
+    padding: 12px;
+    text-align: center;
+}
+
+.text-container button{
+    border: none;
+    background-color: #5b78b5;
+    color: white;
+    width: 30%;
+}
+/* #5b78b5 */
+
+.img-container{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.logo{
+    width: 60%
+}
+
+
