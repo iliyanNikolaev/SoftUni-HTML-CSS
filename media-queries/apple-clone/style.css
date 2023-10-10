@@ -1,0 +1,149 @@
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 100;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-ultralight-webfont.woff");
+}
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 200;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-thin-webfont.woff");
+}
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 400;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-regular-webfont.woff");
+}
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 500;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-medium-webfont.woff");
+}
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 600;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-semibold-webfont.woff");
+}
+@font-face {
+    font-family: "San Francisco";
+    font-weight: 700;
+    src: url("https://applesocial.s3.amazonaws.com/assets/styles/fonts/sanfrancisco/sanfranciscodisplay-bold-webfont.woff");
+}
+
+body{
+    font-family: 'San Francisco';
+    margin: 0;
+    padding: 0;
+}
+
+.navigation{
+    background-color: #121212;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo{
+    width: 60px;
+}
+
+.links-container{
+    display: flex;
+    gap: 12px;
+}
+
+.link{
+    text-decoration: none;
+    color: #a0a0a0;
+    font-size: 13px;
+}
+
+.first{
+    background-color: #000000;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.first-title{
+    margin: 0;
+    color: white;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.first-slogan{
+    color: white;
+    font-size: 2rem;
+    margin: 0.2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.btns{
+    margin-top: 1rem;
+    display: flex;
+    gap: 2rem;
+}
+
+.btns a{
+    text-decoration: none;
+    color: #2892f7;
+    font-size: 1.3rem;
+    font-weight: 410;
+}
+
+.first-picture{
+    width: 60%;
+}
+
+.second{
+    background-color: #f5f5f7;
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.5rem;
+    align-items: center;
+    text-align: center;
+}
+
+.second-title{
+    margin: 0;
+    color: #000000;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.second-slogan{
+    color: #000000;
+    font-size: 2rem;
+    margin: 0.2rem;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+
+.second-picture{
+    width: 30%;
+    margin-top: 2rem;
+}
+
+@media (max-width: 600px) {
+    .first-title{
+        font-size: 2.2rem;
+    }
+    .first-slogan {
+        font-size: 1.3rem;
+    }
+    .second-title{
+        font-size: 2.2rem;
+    }
+    .second-slogan {
+        font-size: 1.3rem;
+    }
+    .first-picture{
+        width: 95%;
+    }
+    .second-picture{
+        width: 80%;
+    }
+}
